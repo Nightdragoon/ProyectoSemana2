@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nombreMarginHorizon">40dp</dimen>
+    <dimen name="ButtonWidth">200dp</dimen>
+    <dimen name="buttonHeight">200dp</dimen>
+    <dimen name="buttonMarginTop">40dp</dimen>
+    <dimen name="buttonMarginHorizontal">100dp</dimen>
+    <dimen name="telefonoMarginHorizontal">40dp</dimen>
+    <dimen name="telefonoMarginTop">40dp</dimen>
+    <dimen name="emailMarginTop">40dp</dimen>
+    <dimen name="emailMarginHorizontal">40dp</dimen>
+    <dimen name="descripcionMarginHorizontal">40dp</dimen>
+    <dimen name="descripcionMarginTop">20dp</dimen>
+    <dimen name="siguienteMarginTop">40dp</dimen>
+    <dimen name="siguienteMarginHorizontal">40dp</dimen>
+    <dimen name="nombreMarginTop">40dp</dimen>
+    <dimen name="tcConfirmarDatosSize">35dp</dimen>
+    <dimen name="tcConfirmarDatosMarginHorizontal">70dp</dimen>
+    <dimen name="tcConfirmarDatosMarginTop">40dp</dimen>
+    <dimen name="tvNombreSize">37dp</dimen>
+    <dimen name="tvNombreMarginTop">40dp</dimen>
+    <dimen name="tvNombreMarginHorizontal">40dp</dimen>
+    <dimen name="tvFechaSize">20dp</dimen>
+    <dimen name="tvFechaMarginTop">40dp</dimen>
+    <dimen name="tvtelSyze">20dp</dimen>
+    <dimen name="tvTelMarginTop">40dp</dimen>
+    <dimen name="tvEmailSize">20dp</dimen>
+
+</resources>

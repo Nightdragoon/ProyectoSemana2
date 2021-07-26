@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvConfirmarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmarDatos"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tcConfirmarDatosSize"
+            android:layout_marginHorizontal="@dimen/tcConfirmarDatosMarginHorizontal"
+            android:layout_marginTop="@dimen/tcConfirmarDatosMarginTop"/>
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cynder"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/tvNombreMarginTop"
+            android:textSize="@dimen/tvNombreSize"
+            android:layout_marginHorizontal="@dimen/tvNombreMarginHorizontal"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvFecha1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fechaNacimiento"
+                android:layout_marginHorizontal="@dimen/tvNombreMarginHorizontal"
+                android:textSize="@dimen/tvFechaSize"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/tvFechaMarginTop"
+                />
+            <TextView
+                android:id="@+id/tvFecha2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tvFechaMarginTop"
+                android:text="@string/fecha2"
+                android:textSize="@dimen/tvFechaSize" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tvtelSyze"
+                android:layout_marginTop="@dimen/tvTelMarginTop"
+                android:layout_marginHorizontal="@dimen/tvNombreMarginHorizontal"
+                android:text="@string/tel"/>
+
+            <TextView
+                android:id="@+id/tvTel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tvtelSyze"
+                android:layout_marginTop="@dimen/tvTelMarginTop"
+                android:text="@string/tel"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Email"
+                android:textSize="@dimen/tvEmailSize"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="@dimen/tvNombreMarginHorizontal"
+                android:layout_marginTop="@dimen/tvTelMarginTop" />
+
+            <TextView
+                android:id="@+id/tvEmail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Email"
+                android:textSize="@dimen/tvEmailSize"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/tvTelMarginTop"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Descripcion"
+                android:textSize="@dimen/tvEmailSize"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="@dimen/tvNombreMarginHorizontal"
+                android:layout_marginTop="@dimen/tvTelMarginTop" />
+
+            <TextView
+                android:id="@+id/tvDescripcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Descripcion"
+                android:textSize="@dimen/tvEmailSize"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/tvTelMarginTop"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btEditarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/tvNombreMarginHorizontal"
+            android:text="@string/EditarDatos"
+            android:layout_marginTop="@dimen/tvTelMarginTop"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

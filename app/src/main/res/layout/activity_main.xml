@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/etvNombre"
+            android:layout_marginTop="@dimen/nombreMarginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/nombreMarginHorizon"
+            android:hint="@string/Nombre"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btDateButton"
+                android:layout_width="@dimen/ButtonWidth"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_marginHorizontal="@dimen/buttonMarginHorizontal"
+                android:layout_marginTop="@dimen/buttonMarginTop"
+                android:text="@string/btFecha"
+                android:textColor="@color/black"
+                android:onClick="openDatePicker"
+                android:background="@drawable/calendario"/>
+
+
+
+        </LinearLayout>
+
+        <EditText
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:id="@+id/etvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/telefonoMarginHorizontal"
+            android:hint="@string/telefono"
+            android:layout_marginTop="@dimen/telefonoMarginTop"/>
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/etvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emailMarginTop"
+            android:layout_marginHorizontal="@dimen/emailMarginHorizontal"
+            android:textColor="@color/black"
+            android:hint="@string/email"/>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/etvDescripcion"
+            android:hint="@string/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/descripcionMarginHorizontal"
+            android:layout_marginTop="@dimen/descripcionMarginTop" />
+        <Button
+            android:id="@+id/btSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/siguiente"
+            android:layout_marginTop="@dimen/siguienteMarginTop"
+            android:layout_marginHorizontal="@dimen/siguienteMarginHorizontal"/>
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
